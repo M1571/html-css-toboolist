@@ -1,151 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Toboolist</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Toboolist</title>
 </head>
 <body>
 
-<!-- Logo Name Header -->
+   <!-- Header -->
 
-    <header>
+   <header>
 
-        <div class="logo">
-            <img src="img/Logo.png" alt=""> 
-        </div>
-        
-        <div class="testo-logo">Toboolist</div>
+      <img src="img/Logo.png" class="logo">
+      <h1 class="main-title">Toboolist</h1>
 
-    </header>
+   </header>
 
-    <main>
+   <!-- Corpo -->
 
-        <!-- Coppia Tasti -->
+   <main>
 
-        <section class="section-add">
+      <div class="container container-top">
+         <div class="section">
+            <button class="btn btn-task">Add Task</button>
+            <button class="btn btn-section">Add Selection</button>
+         </div>
+      </div>
 
-            <div class="button-1">Add Task</div>
-            <div class="button-2">Add Section</div>
+      <div class="container container-button">
 
-        </section>
-
-        <!-- Elenco Sezioni -->
-
-        <section class="section">
-
-         <br>
-         
-         <div class="section-point">
+         <div class="toboos">
 
             <!-- New Task -->
 
-             <p class="list-1">
-                <div class="grassetto-t">
-                    <h2>&#9662; New Task</h2>
-                </div>
-             </p>
+            <div class="toboo">
+               <h3>&#9662; New Task</h3>
+               <p>
+                  <span class="icon green">&#10004;</span>
+                  <span>Quarterly Newsletter</span>
+                  <span class="sticker editorial">Editorial</span>
+               </p>
+            </div>
+
+            <!-- Today -->
+
+            <div class="toboo">
+               <h3>&#9662; Today</h3>
+               <p>
+                  <span class="icon green">&#10004;</span>
+                  <span>Recruiting blog post</span>
+                  <span class="sticker editorial">Editorial</span>
+               </p> 
+               <p>  
+                  <span class="icon green">&#10004;</span>
+                  <span>Mobile app launch</span>
+                  <span class="sticker q1 goals">Q1 Goals</span>
+               </p>
+               <p>   
+                  <span class="icon red">&#10006;</span>
+                  <span>Interview John H.</span>
+                  <span class="sticker recruiting">Recruiting</span>
+               </p>
+               <p>   
+                  <span class="icon green">&#10004;</span>
+                  <span>Summit update to mobile storefronts</span>
+                  <span class="sticker mobile">Mobile</span>
+               </p>
+            </div>
+
+            <!-- Upcoming -->
+
+            <div>
+               <h3>&#9662; Upcoming</h3>
+               <p>
+                  <span class="icon red">&#10006;</span>
+                  <span>Schedule meeting with Alex</span>
+               </p>
+               <p>
+                  <span class="icon green">&#10004;</span>
+                  <span>Homepage refresh</span>
+                  <span class="sticker website"></span>
+               </p>
+               <p>
+                  <span class="icon green">&#10004;</span>
+                  <span>Onboard new Sales team members</span>
+                  <span class="sticker editorial"></span>
+               </p>
+            </div>
 
          </div>
 
-         <br>
+      </div>
 
-         <div>
+   </main>
 
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Quarterly Newsletter</span>
-            <span class="buttons" id="editorial">Editorial</span>
 
-         </div>
-         
-         <br>
 
-         <!-- Today -->
 
-         <p class="list-2">
-             <div class="grassetto-t">
-                <h2>&#9662; Today</h2>
-             </div>
-         </p>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Recruiting blog post</span>
-            <span class="buttons" id="editorial">Editorial</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Mobile app launch</span>
-            <span class="buttons" id="q1-goals">Q1 Goals</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="not">❌</span>
-            <span class="lista-i">Interview John H.</span>
-            <span class="buttons" id="recruiting">Recruiting</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Summit update to mobile storefronts</span>
-            <span class="buttons" id="mobile">Mobile</span>
-         </div>
-
-         <br>
-
-         <!-- Upcoming -->
-
-         <p class="list-3">
-             <div class="grassetto-t">
-                 <h2>&#9662; Upcoming</h2>
-             </div>
-         </p>
-
-         <br>
-
-         <div>
-            <span class="check" id="not">❌</span>
-            <span class="lista-i">Schedule meeting with Alex</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Homepage refresh</span>
-            <span class="buttons" id="website">Website</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Onboard new Sales team Members</span>
-            <span class="buttons" id="sales">Sales</span>
-         </div>
-
-         <br>
-
-         <div>
-            <span class="check" id="yes">✔️</span>
-            <span class="lista-i">Review editorial calendar</span>
-            <span class="buttons" id="editorial">Editorial</span>
-         </div>
-
-        </section>
-
-    </main>
-    
+   
 </body>
 </html>
