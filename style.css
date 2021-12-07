@@ -40,3 +40,25 @@ header {
     border-radius: 10;
     background: white;
 }
+
+.button-1 {
+    margin-left: 35px;
+    color: white;
+    background: rgb(98, 170, 241);
+}
+
+.button-2 {
+    margin-left: 5px;
+    color: lightgrey;
+    background: white;
+    border: 1px solid lightgrey;
+}
+
+.button-1, .button-2 {
+    display: inline-block;
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+}
+
