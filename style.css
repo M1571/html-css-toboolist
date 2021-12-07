@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 248, 249);
+    font-size: 15px;
+}
+
+.logo, .testo-logo {
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.testo-logo {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.section-add {
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10;
+    background: white;
+}
