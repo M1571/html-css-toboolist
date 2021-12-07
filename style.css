@@ -7,5 +7,69 @@
     box-sizing: border-box;
 }
 
-/* Start */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    height: 70px;
+    line-height: 15px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 37px;
+}
+
+/* Main */
+
+main {
+    background: rgb(246, 248, 249);
+    padding: 20px 0;
+}
+
+.container {
+    padding: 20px;
+    width: 1024px;
+    background: white;
+    margin: 0 auto;
+}
+
+.container-top {
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1px;
+}
+
+.container-bottom {
+    border-radius: 0 0 10px 10px;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+
+.btn-task {
+    color: white;
+    background: rgb(98, 170, 241);
+    border-color: rgb(98, 170, 241);
+}
+
+.btn-section {
+    background: #fff;
+    color: gray;
+    border-color: gray;
+}
+
+
+
 
