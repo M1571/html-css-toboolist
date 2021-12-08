@@ -79,6 +79,8 @@ main {
     height: 15px;
 }
 
+/* Button color */
+
 .green {
     color: green;
     border: 1px solid green;
@@ -89,5 +91,38 @@ main {
     border: 1px solid red;
 }
 
+.toboo span {
+    vertical-align: middle;
+}
 
+.sticker {
+    font-size: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 9px;
+    color: #fff;
+}
 
+.editorial {
+    background-color: rgb(96, 170, 228);
+}
+
+.q1-goals {
+    background-color: rgb(149, 118, 221);
+}
+
+.recruiting {
+    background-color: rgb(123, 190, 170);
+}
+
+.mobile {
+    background-color: rgb(230, 161, 75);
+}
+
+.website {
+    background-color: rgb(202, 107, 159);
+}
+
+.sales {
+    background-color: rgb(181, 199, 73);
+}
